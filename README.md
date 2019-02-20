@@ -1,7 +1,7 @@
 # Rent-A-Book
 A simple application to provide an online interface for a library.
 
-##Required features: 
+## Required features: 
 1. Users can create account and login to the app.   
 2. Admin (Librarian) should be able to manage (i.e. add, modify, delete) books. Books should be classified into categories like Science, Law, Novels, etc. If a category is deleted, all books under that category should be deleted also.   
 3. Admin (Librarian) should be able to set quantity of books and whether it is available foe lending or not.    
@@ -10,7 +10,7 @@ A simple application to provide an online interface for a library.
 6. Admin (Librarian) should be able to see all the lending orders of a particular user.    
 7. Admin (Librarian) should be able to see total amount made for the day. 
  
-##Extra features: 
+## Extra features: 
 1. Authenticated users should be able to see their lending history    
 2. Authenticated users should get a notification when they login that return date for a book is due    
 3. Admin (Librarian) should be able to see order history    
