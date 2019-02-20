@@ -1,6 +1,6 @@
 <?php
     use Illuminate\Support\Facades\DB;
-    $postCount = count(DB::table('posts')->get());    //Counts the number of posts in the database.
+    // $postCount = count(DB::table('posts')->get());    //Counts the number of posts in the database.
 ?>
 
 <header>
@@ -22,11 +22,11 @@
                     <a class="nav-link" href="{{route('users')}}">Users</a>
                 </li>
                 <li class="nav-item">
-                    <form action="{{route('getPost')}}" method="POST">
+                    {{-- <form action="{{route('getPost')}}" method="POST">
                         <button type="submit" class="btn btn-primary">Go To</button>
                         <input type="number" name="getPostID" min="1" max="{{$postCount}}">
                         <input type="hidden" name="_token" value={{Session::token()}}>
-                    </form>
+                    </form> --}}
 
         		</li>
         		<li class="nav-item dropdown">
